@@ -232,6 +232,8 @@ public class Mahat_Aviv_2023A {
                 lastIndexOf = len - 1;
             }
         }
+		if(indexOf+lastIndexOf==-2)
+			return -1;
 
         return indexOf + (len - lastIndexOf - 1);
     }
